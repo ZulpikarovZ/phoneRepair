@@ -1,0 +1,553 @@
+body {
+	font-family: trebuchet ms,helvetica,sans-serif;
+}
+
+a {
+	color: #fff;
+}
+
+.page-container {
+	/*width: 960px;*/
+	/*margin: 0 auto;*/
+}
+
+.header {
+	background: url("../img/header-bg.jpg");
+	height: 518px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 85px;
+    overflow: hidden;
+}
+
+.header-wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header__img-wrap {	
+	width: 100%;
+    height: 515px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header__logo {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.header__img {
+	position: absolute;
+    left: -283.75px;
+}
+
+.header__text {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.header__left-side {
+	font-size: 42px;
+	line-height: 48px;
+	font-weight: bold;
+	z-index: 1;
+}
+
+.header__right-side {
+	font-size: 28px;
+	font-weight: bold;
+	z-index: 1;
+}
+
+.header__number {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.header__btn {
+	background-color: #417978;
+	border-radius: 6px;
+}
+
+.header__btn-a {
+	display: block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 260px;
+    height: 39px;
+    line-height: 39px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/*section weDo*/
+
+.weDo {
+	text-align: center;
+}
+
+.weDo-wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.weDo__title {
+	font-size: 36px;
+	color: #417978;
+}
+
+.weDo__text {
+	font-size: 19px;
+	font-style: italic;
+	color: #3d4c4c;
+	margin-bottom: 50px;
+}
+
+.weDo__jobs	{
+	display: flex;
+	font-size: 14px;
+	line-height: 18px;
+	font-style: italic;
+	color: #3d4c4c;
+}
+
+.ic {
+	height: 211px;
+    width: 211px;
+    margin-left: -24px;
+    padding-top: calc(211px/2 - 25px);
+}
+
+.ic:first-child {
+	margin-left: 0px;	
+}
+
+.weDo__icon1 {
+	background: url("../img/weDo-icon1.png") no-repeat;
+}
+
+.weDo__icon2 {
+	background: url("../img/weDo-icon2.png") no-repeat;
+}
+
+.weDo__icon3 {
+	background: url("../img/weDo-icon3.png") no-repeat;
+}
+
+.weDo__icon4 {
+	background: url("../img/weDo-icon4.png") no-repeat;
+}
+
+.weDo__icon5 {
+	background: url("../img/weDo-icon5.png") no-repeat;
+}
+
+.weDo__form {
+	width: 955px;
+	height: 440px;
+	box-sizing: border-box;
+	border-radius: 30px;
+    border: 23px solid #ebeced;
+    display: flex;
+    color: #fff;
+    margin-bottom: 65px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weDo__form::after {
+	content: "";
+	position: absolute;
+	background: url("../img/arr-btn.png");
+	width: 91px;
+	height: 68px;
+	left: calc(50% - 45.5px);
+    top: 270px;    
+}
+
+.weDo__form-left {
+	width: 50%;
+	background-color: #adc66a;
+}
+
+.weDo__form-list {
+	list-style: none;
+}
+
+.weDo__form-itemList {
+	display: inline-block;
+}
+
+.weDo__form-time {
+	background: url("../img/bg_white.png") no-repeat;
+	background-size: contain;
+	display: inline-block;
+	width: 44.27652733118971px;
+    height: 71.33440514469454px;
+    color: #333;
+    font-size: 59px;
+    line-height: 71.33px;
+}
+
+.weDo__form-separator {
+	display: inline-block;
+	font-size: 59.035369774919616px;
+    line-height: 71.33440514469454px;
+    width: 19.678456591639872px;
+    vertical-align: top;
+}
+
+.weDo__form-right {
+	width: 50%;
+	background-color: #81b488;
+}
+
+.weDo__form-title {
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.weDo__form-text_l {
+	font-size: 18px;
+	line-height: 22px;
+	font-style: italic;
+}
+
+.weDo__form-text_r {
+	font-size: 16px;
+	line-height: 1.5;
+	font-style: italic;
+}
+
+.form-field {
+	width: 347px;
+	height: 41px;
+	padding: 0 5px;
+	margin-bottom: 3px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+.form-field:nth-child(3) {
+	margin-bottom: 15px;
+}
+
+.form-btn {
+	width: 347px;
+	height: 53px;
+	box-sizing: border-box;
+	background-color: #417978;
+	border-radius: 6px;
+	border-style: none;
+	color: #fff;
+	font-size: 22px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+.form-politic {
+	/**/
+}
+
+.form-politic_a {
+	font-size: 15px;
+	line-height: 31px;
+}
+
+.weDo__work-icon {
+	display: flex;
+	font-style: italic;
+	color: #3d4c4c;
+	margin-bottom: 30px;
+}
+
+.weDo__work-icon div {
+	position: relative;
+	margin-right: 79px;
+}
+
+.weDo__work-icon div:last-child {
+	margin-right: 0;
+}
+
+.weDo__work-icon div:nth-child(1)::after {
+	content: "";
+    width: 65px;
+    height: 26px;
+    left: 190px;
+    top: 65px;
+    background: url("../img/1arr.png") no-repeat;
+    position: absolute;
+}
+
+.weDo__work-icon div:nth-child(2),
+.weDo__work-icon div:nth-child(3) {
+	margin-top: 40px;
+}
+
+.weDo__work-icon div:nth-child(2)::after {
+	content: "";
+    width: 71px;
+    height: 13px;
+    left: 185px;
+    top: 115px;
+    background: url("../img/2arr.png") no-repeat;
+    position: absolute;
+}
+
+.weDo__work-icon div:nth-child(3)::after {
+	content: "";
+    width: 69px;
+    height: 22px;
+    left: 180px;
+    top: 20px;
+    background: url("../img/3arr.png") no-repeat;
+    position: absolute;
+}
+
+.weDo__last-text {
+	font-size: 18px;
+	color: #3d4c4c;
+	margin-bottom: 80px;
+}
+
+/*section trust*/
+
+.trust {
+	background-color: #f1f1f1;
+	padding-bottom: 80px;
+}
+
+.trust-wrap {
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	padding-top: 60px;
+	align-items: center;
+}
+
+.trust__left-side {
+	padding-left: 5px;
+	box-sizing: border-box;
+}
+
+.trust__left-side,
+.trust__right-side {
+	width: calc(50% - 20px);
+}
+
+.trust__left-side h2 {
+	font-size: 33px;
+	font-weight: bold;
+	color: #417978;
+}
+
+.trust__list h3 {
+	font-size: 18px;
+}
+
+.trust__list p {
+	font-size: 13px;
+}
+
+.trust__list {
+  list-style: none;
+  padding-left: 0px;
+  color: #3d4c4c;
+  margin-bottom: 0;
+}
+
+.trust__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.trust__icon {
+  height: 62px;
+  width: 62px;
+  margin-right: 20px;
+}
+
+.slider {
+    width: 476px;
+    height: 500px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 26px;
+    padding-top: 60px;
+    box-sizing: border-box; 
+}
+
+.slide {
+	outline: white;
+}
+
+.slide-text {
+	color: #3d4c4c;
+}
+
+.slide-photo {
+	width: 172px;
+	height: 172px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+
+.sp1 {
+	background: url("../img/slide-photo1.png") no-repeat;
+}
+
+.sp2 {
+	background: url("../img/slide-photo2.png") no-repeat;
+}
+
+.sp3 {
+	background: url("../img/slide-photo3.png") no-repeat;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: gray;
+}
+
+
+
+
+/*section mission*/
+
+.mission {
+	color: #fff;
+	background-color: #aec66a;
+	text-align: center;
+}
+
+.mission-wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.mission h2 {
+	font-size: 42px;
+	padding-top: 80px;
+	margin-top: 0;
+}
+
+.mission p {
+	font-size: 17px;
+	font-style: italic;
+	padding-bottom: 80px;
+	margin-bottom: 0;
+}
+
+/*section request*/
+
+.request {
+	color: #fff;
+	background-color: #81b488;;
+	text-align: center;
+}
+
+.request-wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.request .weDo__form-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 80px;
+	font-size: 42px;
+}
+
+.request .weDo__form-text_r {
+	font-size: 19px;
+}
+
+.request .form-field {
+	width: 476px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.request .form-btn {
+	width: 478px;
+}
+
+.request .weDo__form-right {
+	width: 100%;
+}
+
+.request .form-politic {
+	padding-bottom: 50px;
+}
+
+.last-form {
+	position: relative;
+}
+
+.last-form::after {
+	content: "";
+	position: absolute;
+	background: url("../img/arr-btn.png");
+	width: 91px;
+	height: 68px;
+	left: 130px;
+    top: 125px;
+}
+
+/*section maps*/
+
+.maps {
+	/**/
+}
+
+/*section footer*/
+
+.footer {
+	color: #fff;
+	background-color: #417978;
+}
+
+.footer-wrap {
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 5px;
+    box-sizing: border-box;
+}
+
+
+.footer__text {
+	font-size: 21px;
+}
+
+.footer__address-wrap {
+	display: flex;
+	align-items: center;
+}
+
+.footer__address-wrap div {
+	margin-right: 15px;
+}
+
+.footer__address {
+	font-size: 13px;
+	font-style: italic;
+}
